@@ -1,0 +1,65 @@
+# ============================================================
+# Chérie Glow — .gitignore
+# ============================================================
+
+# ── Xcode ────────────────────────────────────────────────────
+build/
+DerivedData/
+*.xcuserdata/
+*.xcworkspace/xcuserdata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ── Swift Package Manager ───────────────────────────────────
+.build/
+Packages/
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+
+# ── CocoaPods ────────────────────────────────────────────────
+Pods/
+
+# ── Node.js Backend ─────────────────────────────────────────
+backend/node_modules/
+backend/.env
+backend/.env.local
+backend/.env.production
+backend/npm-debug.log
+backend/yarn-error.log
+
+# ── macOS ────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ── IDE ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Logs ─────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Misc ─────────────────────────────────────────────────────
+.env
+*.p8
+*.pem

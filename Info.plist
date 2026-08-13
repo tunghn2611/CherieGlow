@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>Chérie Glow</string>
+	<key>GIDClientID</key>
+	<string>715948823779-24a84i9c9k8lblakjodun3gj9he7svsp.apps.googleusercontent.com</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.715948823779-24a84i9c9k8lblakjodun3gj9he7svsp</string>
+				<string>fb1044232694745150</string>
+			</array>
+		</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>1044232694745150</string>
+	<key>FacebookClientToken</key>
+	<string>4da1f68da4e9913c7c640d421edc2b83</string>
+	<key>FacebookDisplayName</key>
+	<string>Chérie Glow</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-share-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+	</array>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Ứng dụng cần truy cập mạng cục bộ để kết nối và đồng bộ dữ liệu với server Backend trên máy tính.</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
