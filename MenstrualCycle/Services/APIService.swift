@@ -13,16 +13,10 @@ import UIKit
 class APIService {
     static let shared = APIService()
     
-    /// Production URL (Render.com) — Thay bằng URL thật sau khi deploy
-    /// Debug URL — LAN IP để test trên máy local
+    /// Production Server on Render.com
+    /// Kết nối trực tiếp tới cloud backend để app hoạt động mọi lúc trên điện thoại
     private let baseURL: URL = {
-        #if DEBUG
-        // ── Development: chạy backend trên máy local ──
-        return URL(string: "http://192.168.0.101:3000/api")!
-        #else
-        // ── Production: Render.com (thay URL này sau khi deploy) ──
-        return URL(string: "https://cherieglow-api.onrender.com/api")!
-        #endif
+        return URL(string: "https://cherieglow.onrender.com/api")!
     }()
     
     // Lưu trữ Access Token trong bộ nhớ tạm (Có thể tối ưu lưu vào Keychain sau này)
